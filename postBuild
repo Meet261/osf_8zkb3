@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Update system and install required libraries
+# Install R-remotes version 2.5.0
+R -e "install.packages('remotes', repos = 'http://cran.us.r-project.org', type = 'source')"
+R -e "remotes::install_version('remotes', version = '2.5.0', repos = 'http://cran.us.r-project.org')"
+
+# Install FlowR
+R -e "remotes::install_github('flowr-analysis/rstudio-addin-flowr')"

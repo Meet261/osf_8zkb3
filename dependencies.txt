@@ -1,0 +1,14 @@
+# R libraries
+DEoptim
+msm
+rtdists
+
+# Sourced files
+behind-the-scenes.R
+
+# Data read
+mystery.data
+
+# Data written
+stdout
+unknown

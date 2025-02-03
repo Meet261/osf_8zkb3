@@ -1,0 +1,9 @@
+[project]
+name = "osf_8zkb3"
+version = "0.1.0"
+description = "Repo2Docker project for OSF"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[dependencies]
+gitpython = ">=3.1.30"
